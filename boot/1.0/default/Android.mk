@@ -25,6 +25,7 @@ LOCAL_SHARED_LIBRARIES := \
     libutils.recovery \
     android.hardware.boot@1.0.recovery
 LOCAL_STATIC_LIBRARIES := $(PRODUCT_STATIC_BOOT_CONTROL_HAL)
+LOCAL_STATIC_LIBRARIES += libfstab
 include $(BUILD_SHARED_LIBRARY)
 
 endif
